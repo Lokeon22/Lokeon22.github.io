@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.formacao-section {
+  background-color: rgb(68, 68, 68);
+}
+
+.formacao {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 120px 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+}
+
+.formacao-titulo {
+  max-width: 4ch;
+  text-transform: uppercase;
+  font-size: 8.7rem;
+  word-break: break-all;
+  color: black;
+}
+
+.formacao-texto {
+  max-width: 40ch;
+  color: rgb(194, 194, 194);
+  font-size: 1.2rem;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+/* Box */
+
+.all-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 15px;
+}
+
+.box {
+  max-width: 220px;
+  background-color: black;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.box-sub-titulo {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: rgb(158, 158, 158);
+}
+
+.box-titulo {
+  max-width: 20ch;
+  font-size: 1rem;
+  color: white;
+  position: relative;
+}
+
+.box-titulo::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#b6f829, #b7dd0a);
+  position: absolute;
+  left: -18px;
+}
+
+.box-span {
+  font-weight: bold;
+  color: rgb(158, 158, 158);
+  margin-top: 50px;
+}
+
+/* Cursos */
+
+.cursos {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 20px;
+}
+
+.cursos h2 {
+  margin-top: 20px;
+}
+
+.cursos-nomes {
+  font-size: 0.6rem;
+  color: aliceblue;
+  padding: 10px 25px;
+}
+
+.cursos-titulo {
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: rgb(170, 169, 169);
+}

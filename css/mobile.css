@@ -1,0 +1,99 @@
+@media screen and (max-width: 800px) {
+  .info {
+    text-align: center;
+    padding: 0;
+  }
+
+  .info h2 {
+    font-size: 2.5rem;
+  }
+
+  .info h2::before {
+    display: none;
+  }
+
+  .info p {
+    margin-top: 30px;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .lobo {
+    margin: 0 auto;
+  }
+
+  .experiencia {
+    max-width: 1280px;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 40px 20px;
+    margin: 0 auto;
+  }
+
+  .experiencia-titulo {
+    max-width: 100%;
+    text-transform: capitalize;
+    padding: 10px;
+    font-size: 2.7rem;
+    color: black;
+  }
+
+  .experiencia-texto {
+    padding: 10px;
+    max-width: 40ch;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 1.3rem;
+  }
+
+  .empresa {
+    grid-template-columns: 1fr;
+    margin-bottom: 30px;
+  }
+
+  .empresa-ano {
+    display: none;
+  }
+
+  .empresa-lista {
+    margin-top: 10px;
+  }
+
+  .formacao {
+    padding: 40px 20px;
+  }
+
+  .all-box {
+    grid-template-columns: 1fr;
+    padding: 0px;
+  }
+
+  .box {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .cursos {
+    padding: 0px;
+  }
+
+  .cursos-nomes {
+    padding: 0px 15px;
+  }
+
+  .rodape {
+    grid-template-columns: 1fr;
+    padding: 40px 20px;
+  }
+
+  .rodape-titulo {
+    text-align: center;
+  }
+
+  .rodape-textos {
+    text-align: center;
+    padding: 0;
+  }
+}
